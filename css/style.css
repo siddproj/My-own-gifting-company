@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.navbar {
+    font-size: 16px;
+}
+
+.navbar img {
+    vertical-align: middle;
+    border-style: none;
+    width: 70px;
+    padding-left: 6px
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0 40px;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.backgroundfirstsection {
+    background: rgba(0, 0, 0, 0.7) url('../img/india-bongaigaon-nightlife-night.jpg');
+    background-size: cover;
+    background-blend-mode: screen;
+    height: 50vh;
+}
+
+.backgroundfirstsection .buttons {
+    text-decoration: none;
+    color: white;
+}
+
+.rightNav {
+    width: 20%;
+    text-align: right;
+}
+
+.background {
+    background-color: black;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 90%;
+}
+
+.firsthalf {
+    width: 49%;
+}
+
+.secondhalf img {
+    width: 65%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.bigtext {
+    font-size: 41px;
+}
+
+.smalltext {
+    font-size: 15px;
+}
+
+.btn {
+    padding: 1px 8px;
+    margin: 2px 19px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: black;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.btn-sm {
+    padding: 1px 8px;
+    margin: 2px 19px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: black;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.secRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 261px;
+    background: blue;
+}
+
+#new .one img {
+    width: 469px;
+    height: 305px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#new .h1,
+h1 {
+    font-size: 2.5rem;
+    margin: 2%;
+    text-align: center;
+}
+
+#new .container {
+    max-width: 1155px;
+}
+
+.h2,
+h2 {
+    font-size: 2 rem;
+    text-align: center;
+    width: 94%;
+}
+
+#new .one .details {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    transition: 0.3s ease;
+}
+
+#new2 .one .details {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    transition: 0.3s ease;
+}
+
+#new .one:hover {
+    cursor: pointer;
+    color: red;
+}
+
+#new2 .one img {
+    width: 469px;
+    height: 305px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+
+#new .h3,
+h3 {
+    font-size: 2.5rem;
+    margin: 5%;
+    text-align: center;
+}
+
+.h3,
+h3 {
+    font-size: 2 rem;
+    text-align: center;
+    margin: 8%;
+    height: 170px;
+    color: floralwhite;
+}
+
+.h4,
+h4 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#new2 .one:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+#banner1 {
+    background-image: url("../img/banner35\ \(9\).png");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#banner2 {
+    background-image: url("../img/96-hero.jpg");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.h5,
+h5 {
+    text-align: center;
+    margin: 8%;
+    height: 170px;
+    color: floralwhite;
+    font-size: 40px;
+}
+
+.h6,
+h6 {
+    font-size: 3rem;
+    padding-top: 3%;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+}
+
+.product {
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.product img {
+    transition: 0.3s all;
+}
+
+.product .buy-btn {
+    background: #fb774b;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+    width: 110px;
+}
+
+.product:hover .buy-btn {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 1.25;
+}
+
+details .buy-btn1 {
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+    width: 110px;
+}
+
+.star i {
+    color: gold;
+}
+
+footer {
+    background-color: #222222;
+}
+
+footer h7 {
+    color: #d8d8d8;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+footer h8 {
+    color: #d8d8d8;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+footer h9 {
+    color: #d8d8d8;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-bottom: 25px;
+}
+
+footer li {
+    padding-bottom: 4px;
+}
+
+footer li a {
+    font-size: 0.8rem;
+    color: #999;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: #d8d8d8;
+}
+
+footer p {
+    color: #999;
+    font-size: 0.8rem;
+}
+
+footer p:hover {
+    color: #d8d8d8;
+    ;
+}
+
+footer .copyright a {
+    color: #000;
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    margin: 0 5px;
+}
+
+footer .copyright a:hover {
+    background-color: #521ac4;
+}
+
+.section {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-size: 17px;
+    padding-left: 7%;
+}
+
+.bigtext {
+    font-size: 41px;
+    padding-left: 40%;
+}
+
+.setion-left {
+    flex-direction: row-reverse;
+}
+
+.setion-left .smalltext {
+    font-size: 15px;
+    padding-left: 2%;
+}
+
+.bbash {
+    background-image: url("../img/0026-group-friends-celebrating-champagne.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: top 1px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+}
+.thumbnail {
+    padding-left: 2%;
+}
+.backgroundfirstsectionbb {
+    background-image: url("../img/ban11.png");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+{
+    font-size: 1.5rem;
+    text-align: center;
+}
